@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GRANITAS KG — Обновления каталога брусчатки</title>
+    <link>https://dastan96kg.github.io/granitas-landing-cosentino/</link>
+    <description>Новости и обновления производства премиум-брусчатки в Бишкеке. GRANITAS KG — цемент М600, 9 коллекций, гарантия 3–5 лет.</description>
+    <language>ru-RU</language>
+    <lastBuildDate>Wed, 13 May 2026 09:00:00 +0600</lastBuildDate>
+    <pubDate>Wed, 13 May 2026 09:00:00 +0600</pubDate>
+    <ttl>1440</ttl>
+    <atom:link href="https://dastan96kg.github.io/granitas-landing-cosentino/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Премиум-коллекция «Кремль под мрамор» Иран М600</title>
+      <link>https://dastan96kg.github.io/granitas-landing-cosentino/#catalog</link>
+      <guid isPermaLink="false">granitas-kreml-marble-iran-2026</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0600</pubDate>
+      <description>Глянцевая мраморная брусчатка 5 см на иранском цементе М600 — флагман каталога GRANITAS KG. Доступна для заказа в Бишкеке.</description>
+    </item>
+
+    <item>
+      <title>Прессованный кирпичик 6 см для парковок</title>
+      <link>https://dastan96kg.github.io/granitas-landing-cosentino/#catalog</link>
+      <guid isPermaLink="false">granitas-pressed-kirpichik-2026</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0600</pubDate>
+      <description>Усиленная брусчатка для парковок легковых и коммерческих авто. Серый, красный, коричневый, микс.</description>
+    </item>
+
+    <item>
+      <title>10 лет GRANITAS KG на рынке Кыргызстана</title>
+      <link>https://dastan96kg.github.io/granitas-landing-cosentino/#about</link>
+      <guid isPermaLink="false">granitas-10-years-2026</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0600</pubDate>
+      <description>С 2015 года производим премиум-брусчатку в Бишкеке. Собственная площадка, цемент М600, гарантия 3–5 лет, бесплатная доставка.</description>
+    </item>
+  </channel>
+</rss>

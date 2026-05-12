@@ -59,8 +59,9 @@
   <link rel="apple-touch-icon" href="img/logo.jpg">
   <link rel="shortcut icon" type="image/jpeg" href="img/logo.jpg">
 
-  <!-- Sitemap discovery -->
+  <!-- Sitemap & feed discovery -->
   <link rel="sitemap" type="application/xml" href="/granitas-landing-cosentino/sitemap.xml">
+  <link rel="alternate" type="application/rss+xml" title="GRANITAS KG — обновления" href="/granitas-landing-cosentino/feed.xml">
 
   <!-- Freshness -->
   <meta name="date" content="2026-05-13">
@@ -378,6 +379,41 @@
         "itemReviewed": {"@id":"https://dastan96kg.github.io/granitas-landing-cosentino/#organization"}
       }
     ]
+  }
+  </script>
+
+  <!-- ===== JSON-LD: Product (standalone for detection) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "@id": "https://dastan96kg.github.io/granitas-landing-cosentino/#product-flagship",
+    "name": "Брусчатка «Кремль под мрамор» Иран М600",
+    "description": "Премиум-брусчатка на иранском цементе М600 с глянцевым мраморным узором. Толщина 5 см. Флагман каталога GRANITAS KG.",
+    "image": [
+      "https://dastan96kg.github.io/granitas-landing-cosentino/img/kreml-marble-iran-01.jpg",
+      "https://dastan96kg.github.io/granitas-landing-cosentino/img/kreml-marble-iran-02.jpg"
+    ],
+    "brand": {"@type": "Brand", "name": "GRANITAS KG"},
+    "manufacturer": {"@id": "https://dastan96kg.github.io/granitas-landing-cosentino/#organization"},
+    "category": "Брусчатка / Premium",
+    "material": "Цемент М600 (Иран)",
+    "color": "Бело-серый мраморный",
+    "depth": {"@type": "QuantitativeValue", "value": 5, "unitCode": "CMT"},
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "KGS",
+      "availability": "https://schema.org/InStock",
+      "url": "https://dastan96kg.github.io/granitas-landing-cosentino/#catalog",
+      "seller": {"@id": "https://dastan96kg.github.io/granitas-landing-cosentino/#organization"},
+      "areaServed": {"@type": "City", "name": "Бишкек"}
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "4",
+      "bestRating": "5"
+    }
   }
   </script>
 
