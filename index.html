@@ -14,6 +14,10 @@
   <meta name="yandex" content="index, follow">
   <link rel="canonical" href="https://dastan96kg.github.io/granitas-landing-cosentino/">
 
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="ru" href="https://dastan96kg.github.io/granitas-landing-cosentino/">
+  <link rel="alternate" hreflang="x-default" href="https://dastan96kg.github.io/granitas-landing-cosentino/">
+
   <!-- Branding meta -->
   <meta name="theme-color" content="#ffffff">
   <meta name="application-name" content="GRANITAS KG">
@@ -88,6 +92,11 @@
     "image": "https://dastan96kg.github.io/granitas-landing-cosentino/img/kreml-marble-iran-01.jpg",
     "description": "GRANITAS KG — производитель премиальной брусчатки в Бишкеке, Кыргызстан. 10 лет на рынке, цемент М600 (Иран), гарантия 3–5 лет, бесплатная доставка по Бишкеку, укладка под ключ.",
     "foundingDate": "2015",
+    "founder": {
+      "@type": "Person",
+      "name": "Дастан Давлетбеков",
+      "jobTitle": "Основатель"
+    },
     "foundingLocation": {
       "@type": "Place",
       "address": {
@@ -421,6 +430,24 @@
   }
   </script>
 
+  <!-- ===== JSON-LD: Person (Founder) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://dastan96kg.github.io/granitas-landing-cosentino/#founder",
+    "name": "Дастан Давлетбеков",
+    "jobTitle": "Основатель",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "GRANITAS KG",
+      "@id": "https://dastan96kg.github.io/granitas-landing-cosentino/#organization"
+    },
+    "nationality": "KG",
+    "knowsAbout": ["Производство брусчатки", "Тротуарная плитка", "Цемент М600", "Укладка брусчатки"]
+  }
+  </script>
+
   <!-- ===== JSON-LD: BreadcrumbList ===== -->
   <script type="application/ld+json">
   {
@@ -460,8 +487,8 @@
       </nav>
 
       <div class="nav-cta">
-        <a class="btn btn-primary btn-sm" href="https://wa.me/996555277222">Расчёт</a>
-        <button class="burger" data-burger aria-label="Меню" aria-expanded="false" aria-controls="mobile-menu" type="button">
+        <a class="btn btn-primary btn-sm" href="https://wa.me/996555277222" aria-label="Получить расчёт в WhatsApp">Расчёт</a>
+        <button class="burger" data-burger aria-label="Открыть мобильное меню" aria-expanded="false" aria-controls="mobile-menu" type="button">
           <span></span>
         </button>
       </div>
@@ -1006,15 +1033,15 @@
             <div class="contact-rows">
               <div class="contact-row">
                 <span class="caption">Телефон</span>
-                <span class="v"><a href="tel:+996555277222">+996 555 277 222</a></span>
+                <span class="v"><a href="tel:+996555277222" aria-label="Позвонить в GRANITAS KG: +996 555 277 222">+996 555 277 222</a></span>
               </div>
               <div class="contact-row">
                 <span class="caption">WhatsApp</span>
-                <span class="v"><a href="https://wa.me/996555277222">wa.me/996555277222</a></span>
+                <span class="v"><a href="https://wa.me/996555277222" aria-label="Написать в WhatsApp GRANITAS KG">wa.me/996555277222</a></span>
               </div>
               <div class="contact-row">
                 <span class="caption">Instagram</span>
-                <span class="v"><a href="https://instagram.com/_bruschatka_bishkek">@_bruschatka_bishkek</a></span>
+                <span class="v"><a href="https://instagram.com/_bruschatka_bishkek" aria-label="Instagram GRANITAS KG: @_bruschatka_bishkek">@_bruschatka_bishkek</a></span>
               </div>
               <div class="contact-row">
                 <span class="caption">Адрес</span>
@@ -1117,9 +1144,9 @@
 
   <!-- Sticky mobile bar -->
   <div class="mobile-bar" aria-label="Быстрые действия">
-    <a href="tel:+996555277222">Позвонить</a>
-    <a href="https://wa.me/996555277222">WhatsApp</a>
-    <a href="#catalog" class="primary">Каталог</a>
+    <a href="tel:+996555277222" aria-label="Позвонить в GRANITAS KG">Позвонить</a>
+    <a href="https://wa.me/996555277222" aria-label="Написать в WhatsApp GRANITAS KG">WhatsApp</a>
+    <a href="#catalog" class="primary" aria-label="Открыть каталог брусчатки">Каталог</a>
   </div>
 
   <script src="js/main.js" defer></script>
