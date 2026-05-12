@@ -401,12 +401,16 @@
     "color": "Бело-серый мраморный",
     "depth": {"@type": "QuantitativeValue", "value": 5, "unitCode": "CMT"},
     "offers": {
-      "@type": "Offer",
+      "@type": "AggregateOffer",
       "priceCurrency": "KGS",
+      "lowPrice": "1500",
+      "highPrice": "3500",
+      "price": "1500",
       "availability": "https://schema.org/InStock",
       "url": "https://dastan96kg.github.io/granitas-landing-cosentino/#catalog",
       "seller": {"@id": "https://dastan96kg.github.io/granitas-landing-cosentino/#organization"},
-      "areaServed": {"@type": "City", "name": "Бишкек"}
+      "areaServed": {"@type": "City", "name": "Бишкек"},
+      "offerCount": "9"
     },
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -1082,7 +1086,8 @@
         <div>
           <h5>Компания</h5>
           <ul>
-            <li><a href="#about">О компании</a></li>
+            <li><a href="#about" rel="bookmark" title="О компании GRANITAS KG">О компании</a></li>
+            <li><a href="/granitas-landing-cosentino/about/" rel="bookmark">About — Подробно о GRANITAS KG</a></li>
             <li><a href="#applications">Применение</a></li>
             <li><a href="#production">Производство</a></li>
             <li><a href="#portfolio">Портфолио</a></li>
