@@ -29,21 +29,7 @@
     window.addEventListener('resize', () => { if (window.innerWidth > 960) close(); });
   }
 
-  // ---------- Scroll reveal ----------
-  const revealEls = document.querySelectorAll('.reveal');
-  if ('IntersectionObserver' in window && revealEls.length) {
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('is-visible');
-          io.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
-    revealEls.forEach(el => io.observe(el));
-  } else {
-    revealEls.forEach(el => el.classList.add('is-visible'));
-  }
+  // ---------- Scroll reveal — disabled, handled by effects.js (GSAP) ----------
 
   // ---------- FAQ accordion ----------
   document.querySelectorAll('[data-faq-q]').forEach(btn => {

@@ -74,6 +74,10 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- ===== Animation stack (Конвейер 2.0, style 08-monochrome-bold) ===== -->
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1/dist/lenis.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
   <!-- ===== JSON-LD: Organization ===== -->
   <script type="application/ld+json">
   {
@@ -464,7 +468,7 @@
   </script>
 </head>
 
-<body>
+<body data-style="08">
 
   <!-- ============================================================
        1. NAV
@@ -512,26 +516,26 @@
     <!-- ============================================================
          2. HERO
          ============================================================ -->
-    <section class="hero">
-      <div class="hero-bg">
+    <section class="hero section">
+      <div class="hero-bg" data-parallax="0.3">
         <img src="img/kreml-marble-iran-01.jpg" alt="Премиум-брусчатка «Кремль под мрамор» на цементе М600 (Иран) от GRANITAS KG, Бишкек" width="1920" height="1080" fetchpriority="high" decoding="async">
       </div>
-      <div class="hero-meta">GRANITAS KG · Бишкек · с 2015</div>
+      <div class="hero-meta" data-reveal-hero>GRANITAS KG · Бишкек · с 2015</div>
       <div class="container hero-inner">
-        <h1>
+        <h1 data-split>
           <span class="w">Камень,</span>
           <span class="w">который</span>
           <span class="w">формирует</span>
           <span class="w">двор.</span>
         </h1>
-        <p class="subtitle">
+        <p class="subtitle" data-reveal-hero>
           Премиум-брусчатка собственного производства. Цемент М600 (Иран), 9&nbsp;коллекций,
           укладка под&nbsp;ключ и&nbsp;бесплатная доставка по&nbsp;Бишкеку.
         </p>
-        <blockquote class="hero-citation" cite="https://dastan96kg.github.io/granitas-landing-cosentino/">
+        <blockquote class="hero-citation" cite="https://dastan96kg.github.io/granitas-landing-cosentino/" data-reveal-hero>
           <p><b>GRANITAS KG</b> — производитель премиальной брусчатки в&nbsp;Бишкеке, Кыргызстан. С&nbsp;2015&nbsp;года на&nbsp;рынке. Иранский цемент марки&nbsp;М600, гарантия 3–5&nbsp;лет, бесплатная доставка по&nbsp;Бишкеку, укладка под&nbsp;ключ собственной бригадой.</p>
         </blockquote>
-        <div class="hero-actions">
+        <div class="hero-actions" data-reveal-hero>
           <a class="btn btn-primary" href="#catalog">Открыть каталог</a>
           <a class="btn btn-outline" href="https://wa.me/996555277222">Получить расчёт</a>
         </div>
@@ -541,22 +545,22 @@
     <!-- ============================================================
          3. KPI
          ============================================================ -->
-    <section class="kpi" aria-label="Цифры компании">
+    <section class="kpi section" aria-label="Цифры компании">
       <div class="container">
         <div class="kpi-grid">
-          <div class="kpi-card reveal">
-            <div class="kpi-num">10</div>
+          <div class="kpi-card reveal" data-reveal="scale">
+            <div class="kpi-num"><span data-count="10">0</span></div>
             <div class="kpi-label">лет на&nbsp;рынке Кыргызстана</div>
           </div>
-          <div class="kpi-card reveal">
-            <div class="kpi-num">9</div>
+          <div class="kpi-card reveal" data-reveal="scale">
+            <div class="kpi-num"><span data-count="9">0</span></div>
             <div class="kpi-label">коллекций — от&nbsp;классики до&nbsp;«под мрамор»</div>
           </div>
-          <div class="kpi-card reveal">
-            <div class="kpi-num">5</div>
+          <div class="kpi-card reveal" data-reveal="scale">
+            <div class="kpi-num"><span data-count="5">0</span></div>
             <div class="kpi-label">лет гарантии на&nbsp;покрытие</div>
           </div>
-          <div class="kpi-card reveal">
+          <div class="kpi-card reveal" data-reveal="scale">
             <div class="kpi-num">М600</div>
             <div class="kpi-label">иранский цемент в&nbsp;премиум-линейке</div>
           </div>
@@ -567,9 +571,9 @@
     <!-- ============================================================
          4. CATALOG
          ============================================================ -->
-    <section id="catalog">
+    <section id="catalog" class="section">
       <div class="container">
-        <header class="section-head reveal">
+        <header class="section-head section-header reveal" data-reveal>
           <span class="caption">Каталог</span>
           <h2>Каждый камень — своя история.</h2>
           <p class="subtitle">Девять коллекций от&nbsp;классической плетёнки до&nbsp;премиальной «под&nbsp;мрамор» на&nbsp;иранском&nbsp;М600. Все&nbsp;толщины&nbsp;и&nbsp;форматы&nbsp;— в&nbsp;одном&nbsp;производстве.</p>
@@ -577,7 +581,7 @@
 
         <div class="catalog-grid">
 
-          <article class="card reveal">
+          <article class="card reveal" data-reveal="right">
             <div class="card-img-wrap"><img src="img/kreml-marble-iran-01.jpg" alt="Брусчатка «Кремль под мрамор» Иран М600 — глянцевая мраморная текстура, 5 см" loading="lazy"></div>
             <div class="card-body">
               <span class="card-badge">Премиум · М600</span>
@@ -587,7 +591,7 @@
             </div>
           </article>
 
-          <article class="card reveal">
+          <article class="card reveal" data-reveal="scale">
             <div class="card-img-wrap"><img src="img/kreml-marble-kz-02.jpg" alt="Брусчатка «Кремль под мрамор» (Казахстан) — матовая мраморная фактура" loading="lazy"></div>
             <div class="card-body">
               <span class="card-badge">Средний сегмент</span>
@@ -597,7 +601,7 @@
             </div>
           </article>
 
-          <article class="card reveal">
+          <article class="card reveal" data-reveal="left">
             <div class="card-img-wrap"><img src="img/kremlin-01-placeholder.jpg" onerror="this.onerror=null;this.src='img/kreml-01.jpg'" alt="Брусчатка «Кремль» — белый и тёмно-коричневый, прямоугольники с квадратными вставками" loading="lazy"></div>
             <div class="card-body">
               <span class="card-badge">Стандарт</span>
@@ -607,7 +611,7 @@
             </div>
           </article>
 
-          <article class="card reveal">
+          <article class="card reveal" data-reveal="right">
             <div class="card-img-wrap"><img src="img/kirpichik-01.jpg" alt="Брусчатка «Кирпичик» 5 см — плетёночная раскладка, бело-коричневая" loading="lazy"></div>
             <div class="card-body">
               <span class="card-badge">Стандарт</span>
@@ -617,7 +621,7 @@
             </div>
           </article>
 
-          <article class="card reveal">
+          <article class="card reveal" data-reveal="scale">
             <div class="card-img-wrap"><img src="img/pressed-kirpichik-03.jpg" alt="Прессованный кирпичик 6 см — гладкая поверхность для парковок" loading="lazy"></div>
             <div class="card-body">
               <span class="card-badge">Усиленный · 6 см</span>
@@ -627,7 +631,7 @@
             </div>
           </article>
 
-          <article class="card reveal">
+          <article class="card reveal" data-reveal="left">
             <div class="card-img-wrap"><img src="img/kreml-anthracite-01.jpg" alt="Брусчатка «Кремль антрацит» — тёмно-чёрная, для современных дворов" loading="lazy"></div>
             <div class="card-body">
               <span class="card-badge">Современный</span>
@@ -637,7 +641,7 @@
             </div>
           </article>
 
-          <article class="card reveal">
+          <article class="card reveal" data-reveal="right">
             <div class="card-img-wrap"><img src="img/besh-tash-01.jpg" alt="Брусчатка «Беш таш» — мультиформат разных размеров в одном паттерне, 5 см" loading="lazy"></div>
             <div class="card-body">
               <span class="card-badge">Мультиформат</span>
@@ -647,7 +651,7 @@
             </div>
           </article>
 
-          <article class="card reveal">
+          <article class="card reveal" data-reveal="scale">
             <div class="card-img-wrap"><img src="img/besh-tash-02.jpg" alt="«Беш таш» Иран М600 — серо-мраморная отделка премиум-класса" loading="lazy"></div>
             <div class="card-body">
               <span class="card-badge">Премиум · М600</span>
@@ -657,7 +661,7 @@
             </div>
           </article>
 
-          <article class="card reveal">
+          <article class="card reveal" data-reveal="left">
             <div class="card-img-wrap"><img src="img/kreml-marble-kz-04.jpg" alt="Брусчатка «Кремль под мрамор» на объекте — большая площадь укладки" loading="lazy"></div>
             <div class="card-body">
               <span class="card-badge">Под ключ</span>
@@ -674,15 +678,15 @@
     <!-- ============================================================
          5. APPLICATIONS — 3 чередующихся 50/50
          ============================================================ -->
-    <section id="applications" style="background: var(--surface-alt);">
+    <section id="applications" class="section" style="background: var(--surface-alt);">
       <div class="container">
-        <header class="section-head reveal">
+        <header class="section-head section-header reveal" data-reveal>
           <span class="caption">Применение</span>
           <h2>От частного двора до&nbsp;коммерческой парковки.</h2>
           <p class="subtitle">Толщина, замес и&nbsp;форматы&nbsp;— под&nbsp;конкретный сценарий нагрузки. Не&nbsp;универсально, а&nbsp;точно.</p>
         </header>
 
-        <div class="split reveal">
+        <div class="split" data-reveal="left">
           <div class="split-media">
             <img src="img/kreml-marble-iran-02.jpg" alt="Уложенная во дворе частного дома брусчатка под мрамор" loading="lazy">
           </div>
@@ -699,7 +703,7 @@
           </div>
         </div>
 
-        <div class="split reverse reveal">
+        <div class="split reverse" data-reveal="right">
           <div class="split-media">
             <img src="img/pressed-kirpichik-03.jpg" alt="Прессованный кирпичик 6 см на парковке — усиленный вариант" loading="lazy">
           </div>
@@ -716,7 +720,7 @@
           </div>
         </div>
 
-        <div class="split reveal">
+        <div class="split" data-reveal="left">
           <div class="split-media">
             <img src="img/kreml-anthracite-01.jpg" alt="Кремль антрацит — современный монохромный двор" loading="lazy">
           </div>
@@ -739,41 +743,41 @@
     <!-- ============================================================
          5.5 ABOUT (E-E-A-T для AI + citation-friendly)
          ============================================================ -->
-    <section id="about" aria-labelledby="about-heading">
+    <section id="about" class="section" aria-labelledby="about-heading">
       <div class="container">
-        <header class="section-head reveal">
+        <header class="section-head section-header reveal" data-reveal>
           <span class="caption">О компании</span>
           <h2 id="about-heading">GRANITAS&nbsp;KG — производитель брусчатки в&nbsp;Бишкеке с&nbsp;2015&nbsp;года.</h2>
           <p class="subtitle">GRANITAS&nbsp;KG&nbsp;— производитель премиальной брусчатки и&nbsp;тротуарной плитки в&nbsp;Бишкеке, Кыргызстан. 10&nbsp;лет на&nbsp;рынке, собственная производственная площадка на&nbsp;ул.&nbsp;Восточная,&nbsp;248а. Премиум-линейка&nbsp;— на&nbsp;иранском цементе марки М600 (высшая марка прочности). Гарантия 3–5&nbsp;лет на&nbsp;покрытие. Полный цикл: производство → доставка → укладка под&nbsp;ключ собственной бригадой.</p>
         </header>
 
         <div class="about-grid reveal">
-          <div class="about-card">
+          <div class="about-card" data-reveal="right">
             <span class="about-num">2015</span>
             <h3>Год основания</h3>
             <p>10 лет на&nbsp;рынке производства брусчатки в&nbsp;Кыргызстане. Опыт исчисляется тысячами квадратных метров.</p>
           </div>
-          <div class="about-card">
+          <div class="about-card" data-reveal="scale">
             <span class="about-num">М600</span>
             <h3>Иранский цемент</h3>
             <p>Высшая марка прочности. Используется в&nbsp;премиум-коллекциях «Кремль под&nbsp;мрамор Иран» и&nbsp;«Беш&nbsp;таш Иран».</p>
           </div>
-          <div class="about-card">
+          <div class="about-card" data-reveal="left">
             <span class="about-num">9</span>
             <h3>Коллекций в&nbsp;каталоге</h3>
             <p>От&nbsp;классического «Кирпичика» до&nbsp;«Кремль под&nbsp;мрамор Иран&nbsp;М600» и&nbsp;мультиформатного «Беш&nbsp;таш».</p>
           </div>
-          <div class="about-card">
+          <div class="about-card" data-reveal="right">
             <span class="about-num">3–5</span>
             <h3>Лет гарантии</h3>
             <p>На&nbsp;покрытие при&nbsp;профессиональной укладке нашей бригадой и&nbsp;корректном основании.</p>
           </div>
-          <div class="about-card">
+          <div class="about-card" data-reveal="scale">
             <span class="about-num">0&nbsp;⃀</span>
             <h3>Доставка по&nbsp;Бишкеку</h3>
             <p>Бесплатно при&nbsp;стандартном объёме заказа. За&nbsp;город&nbsp;— индивидуальный расчёт.</p>
           </div>
-          <div class="about-card">
+          <div class="about-card" data-reveal="left">
             <span class="about-num">5–6</span>
             <h3>см толщины</h3>
             <p>5&nbsp;см&nbsp;— для&nbsp;дворов и&nbsp;пешеходных зон. 6&nbsp;см (прессованный)&nbsp;— для&nbsp;парковок и&nbsp;коммерческих нагрузок.</p>
@@ -785,9 +789,9 @@
     <!-- ============================================================
          6. PRODUCTION
          ============================================================ -->
-    <section id="production" class="production">
+    <section id="production" class="production section">
       <div class="container">
-        <div class="split reveal">
+        <div class="split" data-reveal="right">
           <div class="split-body">
             <span class="caption">Производство</span>
             <h2>От замеса до&nbsp;поддона — у&nbsp;нас.</h2>
@@ -819,44 +823,44 @@
     <!-- ============================================================
          7. PORTFOLIO (masonry)
          ============================================================ -->
-    <section id="portfolio" style="background: var(--surface-alt);">
+    <section id="portfolio" class="section" style="background: var(--surface-alt);">
       <div class="container">
-        <header class="section-head reveal">
+        <header class="section-head section-header reveal" data-reveal>
           <span class="caption">Портфолио</span>
           <h2>Объекты, которые мы&nbsp;уложили.</h2>
           <p class="subtitle">Частные дворы, парковки и&nbsp;коммерческие территории по&nbsp;Бишкеку и&nbsp;Кыргызстану.</p>
         </header>
 
         <div class="masonry">
-          <figure class="masonry-item reveal">
+          <figure class="masonry-item gallery-item reveal" data-reveal="scale">
             <img src="img/kreml-marble-iran-01.jpg" alt="Кремль под мрамор Иран М600 на частном дворе" loading="lazy">
             <figcaption class="masonry-cap">Кремль под мрамор · Иран</figcaption>
           </figure>
-          <figure class="masonry-item reveal">
+          <figure class="masonry-item gallery-item reveal" data-reveal="scale">
             <img src="img/besh-tash-01.jpg" alt="Беш таш — мультиформатная укладка" loading="lazy">
             <figcaption class="masonry-cap">Беш таш</figcaption>
           </figure>
-          <figure class="masonry-item reveal">
+          <figure class="masonry-item gallery-item reveal" data-reveal="scale">
             <img src="img/kreml-marble-kz-02.jpg" alt="Кремль под мрамор Казахстан на большой площади" loading="lazy">
             <figcaption class="masonry-cap">Кремль · KZ</figcaption>
           </figure>
-          <figure class="masonry-item reveal">
+          <figure class="masonry-item gallery-item reveal" data-reveal="scale">
             <img src="img/pressed-kirpichik-03.jpg" alt="Прессованный кирпичик на парковке" loading="lazy">
             <figcaption class="masonry-cap">Парковка · 6 см</figcaption>
           </figure>
-          <figure class="masonry-item reveal">
+          <figure class="masonry-item gallery-item reveal" data-reveal="scale">
             <img src="img/kirpichik-01.jpg" alt="Классический Кирпичик в плетёнке" loading="lazy">
             <figcaption class="masonry-cap">Кирпичик</figcaption>
           </figure>
-          <figure class="masonry-item reveal">
+          <figure class="masonry-item gallery-item reveal" data-reveal="scale">
             <img src="img/kreml-marble-iran-02.jpg" alt="Премиум укладка Иран М600 на территории" loading="lazy">
             <figcaption class="masonry-cap">Иран · М600</figcaption>
           </figure>
-          <figure class="masonry-item reveal">
+          <figure class="masonry-item gallery-item reveal" data-reveal="scale">
             <img src="img/kreml-anthracite-01.jpg" alt="Кремль антрацит — современный двор" loading="lazy">
             <figcaption class="masonry-cap">Антрацит</figcaption>
           </figure>
-          <figure class="masonry-item reveal">
+          <figure class="masonry-item gallery-item reveal" data-reveal="scale">
             <img src="img/kreml-marble-kz-04.jpg" alt="Кремль под мрамор KZ — натуральные тона" loading="lazy">
             <figcaption class="masonry-cap">Кремль · мрамор</figcaption>
           </figure>
@@ -867,23 +871,23 @@
     <!-- ============================================================
          8. VIDEO
          ============================================================ -->
-    <section id="video">
+    <section id="video" class="section">
       <div class="container">
-        <header class="section-head reveal">
+        <header class="section-head section-header reveal" data-reveal>
           <span class="caption">Видео</span>
           <h2>Укладка в&nbsp;движении.</h2>
           <p class="subtitle">Реальные объекты, реальные смены&nbsp;— как&nbsp;брусчатка ложится у&nbsp;нас на&nbsp;площадке.</p>
         </header>
 
         <div class="video-grid">
-          <div class="video-card reveal">
+          <div class="video-card reveal" data-reveal="left">
             <video src="videos/video5343661278751661815.mp4" muted loop playsinline data-autoplay poster="img/kreml-marble-iran-01.jpg" preload="metadata"></video>
             <div class="video-card-info">
               <span class="caption">Объект · Бишкек</span>
               <h4>Премиум-укладка «Кремль под мрамор»</h4>
             </div>
           </div>
-          <div class="video-card reveal">
+          <div class="video-card reveal" data-reveal="right">
             <video src="videos/video5343661278751661838.mp4" muted loop playsinline data-autoplay poster="img/besh-tash-01.jpg" preload="metadata"></video>
             <div class="video-card-info">
               <span class="caption">Объект · Бишкек</span>
@@ -897,16 +901,16 @@
     <!-- ============================================================
          9. TESTIMONIALS
          ============================================================ -->
-    <section id="reviews" style="background: var(--surface-alt);">
+    <section id="reviews" class="section" style="background: var(--surface-alt);">
       <div class="container">
-        <header class="section-head reveal">
+        <header class="section-head section-header reveal" data-reveal>
           <span class="caption">Отзывы</span>
           <h2>Что говорят клиенты.</h2>
           <p class="subtitle">Комментарии из&nbsp;Instagram <a href="https://instagram.com/_bruschatka_bishkek" style="color:var(--accent);">@_bruschatka_bishkek</a>. Оригиналы на&nbsp;кыргызском&nbsp;— перевод на&nbsp;русском.</p>
         </header>
 
         <div class="testimonials-grid">
-          <article class="quote-card reveal">
+          <article class="quote-card reveal" data-reveal="right">
             <div class="quote-mark">&ldquo;</div>
             <p class="quote-text">Очень красивая брусчатка, успехов в&nbsp;работе.</p>
             <div class="quote-foot">
@@ -918,7 +922,7 @@
             </div>
           </article>
 
-          <article class="quote-card reveal">
+          <article class="quote-card reveal" data-reveal="scale">
             <div class="quote-mark">&ldquo;</div>
             <p class="quote-text">Уложили мощную «кремлёвскую» брусчатку на&nbsp;дом.</p>
             <div class="quote-foot">
@@ -930,7 +934,7 @@
             </div>
           </article>
 
-          <article class="quote-card reveal">
+          <article class="quote-card reveal" data-reveal="left">
             <div class="quote-mark">&ldquo;</div>
             <p class="quote-text">Мы тоже уложили, выглядит красиво.</p>
             <div class="quote-foot">
@@ -942,7 +946,7 @@
             </div>
           </article>
 
-          <article class="quote-card reveal">
+          <article class="quote-card reveal" data-reveal="right">
             <div class="quote-mark">&ldquo;</div>
             <p class="quote-text">Красиво, мы тоже уложили.</p>
             <div class="quote-foot">
@@ -960,14 +964,14 @@
     <!-- ============================================================
          10. FAQ
          ============================================================ -->
-    <section id="faq">
+    <section id="faq" class="section">
       <div class="container">
-        <header class="section-head reveal" style="text-align:center; margin-left:auto; margin-right:auto;">
+        <header class="section-head section-header reveal" data-reveal style="text-align:center; margin-left:auto; margin-right:auto;">
           <span class="caption">FAQ</span>
           <h2>Частые вопросы.</h2>
         </header>
 
-        <div class="faq-list reveal">
+        <div class="faq-list reveal" data-reveal>
           <div class="faq-item">
             <button class="faq-q" data-faq-q aria-expanded="false" type="button">
               <span>Какой цемент используется?</span>
@@ -1022,10 +1026,10 @@
     <!-- ============================================================
          11. CONTACT
          ============================================================ -->
-    <section id="contact" style="background: var(--surface-alt);">
+    <section id="contact" class="section" style="background: var(--surface-alt);">
       <div class="container">
         <div class="contact-split">
-          <div class="contact-info reveal">
+          <div class="contact-info reveal" data-reveal="left">
             <span class="caption" style="color:var(--accent); display:block; margin-bottom:var(--s-2);">Контакты</span>
             <h2>Приезжайте на&nbsp;производство — или&nbsp;напишите.</h2>
             <p class="subtitle">Покажем замесы, образцы под&nbsp;мрамор и&nbsp;готовые партии. Расчёт&nbsp;— в&nbsp;день обращения.</p>
@@ -1055,7 +1059,7 @@
             </div>
           </div>
 
-          <div class="map-wrap reveal">
+          <div class="map-wrap reveal" data-reveal="right">
             <iframe
               src="https://yandex.com/map-widget/v1/?ll=74.668417%2C42.853680&mode=search&text=%D0%B3.%20%D0%91%D0%B8%D1%88%D0%BA%D0%B5%D0%BA%2C%20%D1%83%D0%BB.%20%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%2C%20248%D0%B0&z=15"
               loading="lazy"
@@ -1070,7 +1074,7 @@
     <!-- ============================================================
          12. CTA STRIP (dark)
          ============================================================ -->
-    <section class="cta-strip">
+    <section class="cta-strip section">
       <div class="container cta-strip-inner">
         <div>
           <span class="caption">Готовы начать</span>
@@ -1150,5 +1154,13 @@
   </div>
 
   <script src="js/main.js" defer></script>
+
+  <!-- ===== Animation stack: Lenis + GSAP + ScrollTrigger + split-type + Swiper + effects.js ===== -->
+  <script defer src="https://unpkg.com/lenis@1/dist/lenis.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/split-type@0.3/umd/index.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="js/effects.js"></script>
 </body>
 </html>
