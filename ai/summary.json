@@ -1,0 +1,49 @@
+{
+  "name": "GRANITAS KG",
+  "legal_name": "GRANITAS KG",
+  "url": "https://dastan96kg.github.io/granitas-landing-cosentino/",
+  "description": "Производитель премиальной брусчатки и тротуарной плитки в Бишкеке, Кыргызстан. 10 лет на рынке, цемент М600 (Иран), 9 коллекций, гарантия 3–5 лет, бесплатная доставка по Бишкеку, укладка под ключ.",
+  "short_description": "Премиум-брусчатка от производителя в Бишкеке. Цемент М600 (Иран), гарантия 3–5 лет.",
+  "category": "Manufacturing / Construction Materials",
+  "subcategory": "Paving stones / Concrete pavers",
+  "founded": "2015",
+  "founded_year": 2015,
+  "years_in_business": 10,
+  "languages": ["ru", "ky"],
+  "location": {
+    "country": "Кыргызстан",
+    "country_code": "KG",
+    "city": "Бишкек",
+    "address": "ул. Восточная, 248а",
+    "lat": 42.8746,
+    "lng": 74.6122
+  },
+  "contact": {
+    "phone": "+996555277222",
+    "phone_secondary": "+996709777980",
+    "whatsapp": "https://wa.me/996555277222",
+    "instagram": "https://instagram.com/_bruschatka_bishkek"
+  },
+  "usp": [
+    "Иранский цемент М600 — высшая марка прочности",
+    "10 лет на рынке Кыргызстана",
+    "Гарантия 3–5 лет на покрытие",
+    "Бесплатная доставка по Бишкеку",
+    "Полный цикл: производство → доставка → укладка",
+    "9 коллекций брусчатки — от классики до премиум"
+  ],
+  "service_area": ["Бишкек", "Чуйская область", "Кыргызстан"],
+  "service_types": ["производство брусчатки", "тротуарная плитка", "укладка под ключ", "доставка"],
+  "warranty_years": "3-5",
+  "key_facts": {
+    "collections_count": 9,
+    "years_in_market": 10,
+    "premium_cement_grade": "М600",
+    "premium_cement_origin": "Иран",
+    "standard_thickness_cm": 5,
+    "reinforced_thickness_cm": 6,
+    "delivery_bishkek": "free"
+  },
+  "schema_url": "https://dastan96kg.github.io/granitas-landing-cosentino/#organization",
+  "last_updated": "2026-05-08"
+}

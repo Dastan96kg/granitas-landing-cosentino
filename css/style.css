@@ -847,3 +847,57 @@ section { padding: var(--s-7) 0; }
   .mobile-bar { display: flex; }
   body { padding-bottom: 80px; }
 }
+
+/* ============================================================
+   SEO / GEO: hero citation block + About section
+   ============================================================ */
+.hero-citation {
+  margin: var(--s-3) 0 0;
+  padding: var(--s-2) var(--s-3);
+  border-left: 3px solid var(--accent);
+  background: rgba(255,255,255,0.92);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  max-width: 720px;
+  border-radius: var(--radius-sm);
+  font-style: normal;
+}
+.hero-citation p { margin: 0; }
+.hero-citation b { color: var(--accent); }
+
+#about { padding: var(--s-7) 0; }
+#about .about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--s-3);
+  margin-top: var(--s-4);
+}
+#about .about-card {
+  padding: var(--s-3);
+  background: var(--surface-alt);
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--accent);
+}
+#about .about-card .about-num {
+  font-size: 32px;
+  font-weight: 200;
+  color: var(--accent);
+  display: block;
+  margin-bottom: var(--s-1);
+}
+#about .about-card h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 var(--s-1);
+}
+#about .about-card p {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .hero-citation { font-size: 14px; padding: var(--s-2); }
+}

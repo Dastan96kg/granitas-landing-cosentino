@@ -1,0 +1,51 @@
+{
+  "provider": "GRANITAS KG",
+  "url": "https://dastan96kg.github.io/granitas-landing-cosentino/",
+  "service_type": "Производство и укладка брусчатки / тротуарной плитки",
+  "service_area": {
+    "primary": "Бишкек",
+    "country": "Кыргызстан",
+    "delivery_free_zone": "Бишкек",
+    "extended": ["Чуйская область", "по согласованию — Кыргызстан"]
+  },
+  "language": ["ru", "ky"],
+  "currency": "KGS",
+  "services": [
+    {
+      "id": "production",
+      "name": "Производство брусчатки",
+      "description": "Собственная площадка в Бишкеке. 9 коллекций. Цемент М600 (Иран) для премиум-линейки, цемент Казахстана для стандарта.",
+      "deliverable": "Готовая партия на поддонах"
+    },
+    {
+      "id": "delivery",
+      "name": "Доставка",
+      "description": "Бесплатная доставка по Бишкеку при стандартном объёме заказа. За город — индивидуальный расчёт.",
+      "price": "Бесплатно по Бишкеку"
+    },
+    {
+      "id": "installation",
+      "name": "Укладка под ключ",
+      "description": "Профессиональная укладка собственной бригадой. Один договор, одна ответственность. Гарантия 3–5 лет.",
+      "warranty_years": "3-5"
+    }
+  ],
+  "products": [
+    {"id": "kirpichik", "name": "Кирпичик", "thickness_cm": 5, "segment": "standard"},
+    {"id": "kreml", "name": "Кремль", "thickness_cm": 5, "segment": "standard"},
+    {"id": "kreml-marble-kz", "name": "Кремль под мрамор · Казахстан", "thickness_cm": 5, "segment": "mid"},
+    {"id": "kreml-marble-iran", "name": "Кремль под мрамор · Иран М600", "thickness_cm": 5, "segment": "premium", "cement": "Iran M600"},
+    {"id": "pressed-kirpichik", "name": "Прессованный кирпичик", "thickness_cm": 6, "segment": "reinforced", "use_case": "parking"},
+    {"id": "kreml-anthracite", "name": "Кремль антрацит", "thickness_cm": 5, "segment": "modern"},
+    {"id": "besh-tash", "name": "Беш таш", "thickness_cm": 5, "segment": "multiformat"},
+    {"id": "besh-tash-iran", "name": "Беш таш Иран М600", "thickness_cm": 5, "segment": "premium", "cement": "Iran M600"}
+  ],
+  "contact": {
+    "phone": "+996555277222",
+    "whatsapp": "https://wa.me/996555277222",
+    "instagram": "https://instagram.com/_bruschatka_bishkek",
+    "address": "г. Бишкек, ул. Восточная, 248а"
+  },
+  "opening_hours": "Mo-Sa 09:00-18:00",
+  "last_updated": "2026-05-08"
+}

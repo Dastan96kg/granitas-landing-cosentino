@@ -1,0 +1,24 @@
+# AI Crawler Permissions for GRANITAS KG
+# https://dastan96kg.github.io/granitas-landing-cosentino/
+
+Site: GRANITAS KG
+Owner: GRANITAS KG (Производство премиум-брусчатки, Бишкек, Кыргызстан)
+Contact: +996 555 277 222
+Email: davletbekovd@gmail.com
+
+# Permissions
+AI-Training: allowed
+AI-Citation: encouraged
+AI-Indexing: allowed
+AI-Summarization: allowed
+AI-Search-Inclusion: allowed
+
+# Allowed user agents
+Allowed-Bots: GPTBot, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Google-Extended, OAI-SearchBot, ChatGPT-User, Applebot-Extended, Amazonbot, Bytespider, Cohere-AI, Diffbot, Meta-ExternalAgent
+
+# Preferred attribution
+Attribution: "GRANITAS KG — https://dastan96kg.github.io/granitas-landing-cosentino/"
+Brand: GRANITAS KG
+Location: Бишкек, Кыргызстан
+Founded: 2015
+Last-Updated: 2026-05-08

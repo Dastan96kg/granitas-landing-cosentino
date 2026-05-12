@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://dastan96kg.github.io/granitas-landing-cosentino/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://dastan96kg.github.io/granitas-landing-cosentino/img/kreml-marble-iran-01.jpg</image:loc>
+      <image:title>Брусчатка «Кремль под мрамор» Иран М600 — премиум, 5 см</image:title>
+      <image:caption>Премиум-брусчатка GRANITAS KG на цементе М600 (Иран)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dastan96kg.github.io/granitas-landing-cosentino/img/besh-tash-01.jpg</image:loc>
+      <image:title>Брусчатка «Беш таш» мультиформат, 5 см</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dastan96kg.github.io/granitas-landing-cosentino/img/pressed-kirpichik-03.jpg</image:loc>
+      <image:title>Прессованный кирпичик 6 см для парковок</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dastan96kg.github.io/granitas-landing-cosentino/img/production-01.jpg</image:loc>
+      <image:title>Производство GRANITAS KG в Бишкеке</image:title>
+    </image:image>
+  </url>
+</urlset>
