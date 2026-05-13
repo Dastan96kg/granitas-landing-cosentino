@@ -194,7 +194,8 @@ section { padding: var(--s-7) 0; }
   letter-spacing: 0.02em;
   font-size: 18px;
 }
-.nav-logo img { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
+.nav-logo img { width: auto; height: 44px; border-radius: 0; object-fit: contain; display: block; }
+.footer-brand .nav-logo img { height: 48px; }
 .nav-logo span { font-weight: 400; }
 .nav-logo b { font-weight: 600; letter-spacing: 0.16em; }
 
